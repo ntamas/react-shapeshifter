@@ -7,7 +7,7 @@ export declare type Shape = "menu" | "close" | "left" | "right" | "down" | "up";
 export interface IShapeshifterProps {
   color?: string;
   onClick?: (event: React.SyntheticEvent<any>) => void;
-  padding?: number;
+  padding?: any;
   shape?: Shape;
   style?: React.CSSProperties;
   thickness?: number;

@@ -12,7 +12,7 @@ export const Shapeshifter = (props) => {
   const width = props.width || 18
   const style = {
     boxSizing: 'border-box',
-    padding: (padding + thickness) + 'px ' + padding + 'px',
+    padding: padding,
     ...props.style
   }
   const barStyle = {
@@ -111,7 +111,6 @@ export const Shapeshifter = (props) => {
 Shapeshifter.propTypes = {
   color: PropTypes.string,
   onClick: PropTypes.func,
-  padding: PropTypes.number,
   shape: PropTypes.oneOf(['menu', 'close', 'left', 'right', 'up', 'down']),
   style: PropTypes.object,
   thickness: PropTypes.number,
