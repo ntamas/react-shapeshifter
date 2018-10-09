@@ -1,12 +1,12 @@
 const { name, version } = require('./package.json')
 
 const path = require('path')
-const webpack = require('webpack')
 
 const PROD = (process.env.NODE_ENV === 'production')
 
 module.exports = {
   entry: './src/index.jsx',
+  mode: PROD ? 'production' : 'development',
   devtool: 'source-map',
   output: {
     libraryTarget: 'umd',
@@ -15,10 +15,10 @@ module.exports = {
       : (name + '-' + version + '.js')
   },
   resolve: {
-    extensions: [".js", ".jsx"]
+    extensions: ['.js', '.jsx']
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/
       },
