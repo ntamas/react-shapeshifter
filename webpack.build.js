@@ -11,7 +11,8 @@ module.exports = {
   output: {
     libraryTarget: 'umd',
     path: path.resolve('dist'),
-    filename: PROD ? (name + '-' + version + '.min.js')
+    filename: PROD
+      ? (name + '-' + version + '.min.js')
       : (name + '-' + version + '.js')
   },
   resolve: {
