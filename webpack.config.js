@@ -11,7 +11,9 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   devServer: {
-    contentBase: path.resolve('./examples/basic'),
+    static: {
+      directory: path.resolve('./examples/basic'),
+    },
     compress: true
   },
   module: {
