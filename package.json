@@ -1,6 +1,6 @@
 {
   "name": "react-shapeshifter",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "React component that composes various commonly used button shapes from three lines",
   "main": "lib/index.js",
   "types": "index.d.ts",
