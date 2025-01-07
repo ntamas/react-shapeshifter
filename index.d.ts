@@ -14,7 +14,7 @@ export interface IShapeshifterProps {
   width?: number;
 }
 
-export declare const Shapeshifter: React.SFC<IShapeshifterProps>;
+export declare const Shapeshifter: React.FunctionComponent<IShapeshifterProps>;
 
 export default Shapeshifter;
 
