@@ -28,23 +28,23 @@
   },
   "homepage": "https://github.com/ntamas/react-shapeshifter#readme",
   "devDependencies": {
-    "@babel/cli": "^7.26.4",
-    "@babel/core": "^7.26.0",
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
-    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-env": "^7.26.9",
     "@babel/preset-react": "^7.26.3",
-    "@types/react": "^19.0.3",
-    "babel-loader": "^9.2.1",
+    "@types/react": "^19.1.2",
+    "babel-loader": "^10.0.0",
     "babel-preset-env": "^0.0.0",
     "cpx2": "^8.0.0",
     "gh-pages": "^6.3.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "rimraf": "^6.0.1",
     "standard": "^17.1.2",
-    "webpack": "^5.97.1",
+    "webpack": "^5.99.7",
     "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.0"
+    "webpack-dev-server": "^5.2.1"
   },
   "peerDependencies": {
     "react": "^15.6.0 || ^16 || ^17 || ^18 || ^19"
