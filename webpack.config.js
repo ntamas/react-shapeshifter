@@ -12,7 +12,7 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.resolve('./examples/basic'),
+      directory: path.resolve('./examples/basic')
     },
     compress: true
   },

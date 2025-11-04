@@ -12,7 +12,7 @@ export const Shapeshifter = (props) => {
   const width = props.width || 18
   const style = {
     boxSizing: 'border-box',
-    padding: padding,
+    padding,
     ...props.style
   }
   const barStyle = {
@@ -30,7 +30,7 @@ export const Shapeshifter = (props) => {
     height: 9 * thickness,
     padding: thickness + 'px 0',
     transition: 'transform 0.3s ease-out',
-    width: width
+    width
   }
 
   if (props.color) {
